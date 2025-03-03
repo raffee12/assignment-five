@@ -69,6 +69,6 @@ document.getElementById("clear-btn").addEventListener("click", function(){
 // discover
 
 document.getElementById("discover").addEventListener("click", ()=> {
-    window.location.href = "http://127.0.0.1:5500/qna.html";
+    window.location.href = "../qna.html";
 })
 
