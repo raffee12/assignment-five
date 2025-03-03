@@ -69,9 +69,9 @@ document.getElementById("clear-btn").addEventListener("click", function(){
 // discover
 
 document.getElementById("discover").addEventListener("click", ()=> {
-    window.location.href = "../qna.html";
+    window.location.href = "https://raffee12.github.io/assignment-five/qna.html";
+
+;
 })
 
-git add file.html
-git commit -m "qna.html"
-git push origin main
+
