@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="menubar">
+          <div class="logo">
+            <img class="img" src="./assets/logo.png" alt="Logo Pic" />
+            <h3><span class="dev">Dev</span>Board</h3>
+          </div>
+          <div class="cta">
+            <div class="cart">
+              <img
+                class="img"
+                src="./assets/checkbox.png"
+                alt="Tic Mark Page"
+              />
+              <p class="number" id="number">23</p>
+            </div>
+            <button id="btn" class="circle-btn">
+              <img
+                class="img"
+                src="./assets/theme-btn.png"
+                alt="colorful Circles"
+              />
+            </button>
+          </div>
+        </nav>
+      </header>
+      <div class="dashboard">
+        <section>
+          <div class="task-tracker">
+            <div class="task-number">
+              <img class="img" src="./assets/checkbox.png" />
+              <p>
+                Task Assigned<span class="block" id="assignment-number">6</span>
+              </p>
+            </div>
+            <div class="discover" id="discover">
+              <img class="board-img" src="./assets/board.png" />
+              <h1 class="discover-text">
+                Discover Something <br />
+                New Today!
+              </h1>
+            </div>
+            <div class="calendar">
+              <img class="img" src="./assets/calender.png" />
+
+              <div class="date">
+                <p id="week">Wed,</p>
+                <span id="month">Jul</span>
+                <span id="day">28</span>
+                <span id="year">2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="top-cards">
+              <div class="card" id="card-one">
+                <p class="card-title">ShopEase</p>
+                <h2 class="instruction" id="task-name-one">Fix Mobile Issue</h2>
+                <p class="card-text">
+                  Debug using Chrome DevTools, check for overlappin..
+                </p>
+                <div class="status">
+                  <div class="date">
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <button class="status-btn" id="btn-one">Completed</button>
+                </div>
+              </div>
+              <div class="card" id="card-two">
+                <p class="card-title">CloudSync</p>
+                <h2 class="instruction" id="task-name-two">Add Dark Mode</h2>
+                <p class="card-text">
+                  Debug using Chrome DevTools, check for overlappin..
+                </p>
+                <div class="status">
+                  <div class="date">
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <button class="status-btn" id="btn-two">Completed</button>
+                </div>
+              </div>
+              <div class="card" id="card-three">
+                <p class="card-title">SwiftPay</p>
+                <h2 class="instruction" id="task-name-three">
+                  Optimize Home Page
+                </h2>
+                <p class="card-text">
+                  Debug using Chrome DevTools, check for overlappin..
+                </p>
+                <div class="status">
+                  <div class="date">
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <button class="status-btn" id="btn-three">Completed</button>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-cards">
+              <div class="card" id="card-four">
+                <p class="card-title">Meta</p>
+                <h2 class="instruction" id="task-name-four">Add new emoji</h2>
+                <p class="card-text">
+                  Debug using Chrome DevTools, check for overlappin..
+                </p>
+                <div class="status">
+                  <div class="date">
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <button class="status-btn" id="btn-four">Completed</button>
+                </div>
+              </div>
+              <div class="card" id="card-five">
+                <p class="card-title">Google LLC</p>
+                <h2 class="instruction" id="task-name-five">
+                  Integrate OpenAI API
+                </h2>
+                <p class="card-text">
+                  Debug using Chrome DevTools, check for overlappin..
+                </p>
+                <div class="status">
+                  <div class="date">
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <button class="status-btn" id="btn-five">Completed</button>
+                </div>
+              </div>
+              <div class="card" id="card-six">
+                <p class="card-title">Glassdor</p>
+                <h2 class="instruction" id="task-name-six">
+                  Improve Job Searching
+                </h2>
+                <p class="card-text">
+                  Debug using Chrome DevTools, check for overlappin..
+                </p>
+                <div class="status">
+                  <div class="date">
+                    <p>Deadline</p>
+                    <p>21 March 2025</p>
+                  </div>
+                  <button class="status-btn" id="btn-six">Completed</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside id="sidebar">
+          <div class="activity-box">
+            <div class="activity">
+              <img src="./assets/activity.png" />
+              <h2 class="activity-title">Activity Log</h2>
+            </div>
+            <div>
+              <button class="clear-btn" id="clear-btn">Clear History</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <script src="./script/theme.js"></script>
+    <script src="./script/utilities.js"></script>
+    <script src="./script/calendar.js"></script>
+    <script src="./script/time.js"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
