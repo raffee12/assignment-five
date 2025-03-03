@@ -72,3 +72,6 @@ document.getElementById("discover").addEventListener("click", ()=> {
     window.location.href = "../qna.html";
 })
 
+git add file.html
+git commit -m "qna.html"
+git push origin main
